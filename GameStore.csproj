@@ -95,6 +95,7 @@
     <Content Include="Pages\Checkout.aspx" />
     <Content Include="Pages\Listing.aspx" />
     <Content Include="Pages\Admin\Admin.Master" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Scripts\jquery-2.1.1.js" />

@@ -57,6 +57,7 @@ namespace GameStore.Pages
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            var route = Page.RouteData.Values;
             if (IsPostBack)
             {
                 int selectedGameId;

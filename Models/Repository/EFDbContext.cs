@@ -6,7 +6,7 @@ namespace GameStore.Models.Repository
     public class EFDbContext : DbContext
     {
         public EFDbContext()
-            : base(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\КахаровЖ\Desktop\GameStore\App_Data\MyDB.mdf;Integrated Security=True;Connect Timeout=30")
+            : base("conStr")
         {  }
 
         public DbSet<Game> Games { get; set; }
